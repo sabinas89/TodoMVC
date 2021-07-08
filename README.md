@@ -2,8 +2,8 @@
 
 ---
 
-        It's a simple, light-weight web based app which lets one keep track of tasks that they need to accomplish during the day
-    The Objective of this project is to perform functional testing of this web app.
+This is a simple, light-weight web based app which lets one keep track of tasks that they need to accomplish during the day
+The Objective of this project is to perform functional testing of this web app.
 
 ---
 
@@ -12,6 +12,8 @@
 ---
 
 ### Test Case Matrix
+
+---
 
 | TC ID   |      Description      |  Positive/ Negative |
 |----------|-------------|------|
@@ -30,7 +32,29 @@
 | 13 | User can add special characters in the todos | Negative |
 | 14 | Todo items are removed when a new browser session is launched on the same machine | Negative |
 
+---
 
+### Project Structure
+
+---
+
+- **Test Case Path**--> src/test/java
+- **Test Classes**--> PositiveTests & NegativeTests
+- **WebDriver Classes**--> src/main/java/drivers
+- **Driver location**--> src/main/java/resources
+
+---
+
+### Tech Stack
+
+---
+- TestNG
+- Selenium WebDriver
+- Maven
+- HttpURLConnection
+- Maven surefire reports
+
+---
 
 
 
