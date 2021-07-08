@@ -40,6 +40,7 @@ The Objective of this project is to perform functional testing of this web app.
 
 - **Test Case Path**--> src/test/java
 - **Test Classes**--> PositiveTests & NegativeTests
+- **TestNG XML**--> conf/testng.xml
 - **WebDriver Classes**--> src/main/java/drivers
 - **Driver location**--> src/main/java/resources
 
