@@ -1,9 +1,33 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="TodoMVC App Tests" verbose="1">
+<suite name="TodoMVC App Tests" verbose="1" parallel="false">
     <test name="Positive Tests">
         <classes>
-            <class name="PositiveTests"/>
+            <class name="PositiveTests">
+                <methods>
+                    <include name="urlIsWorking"/>
+                    <include name="verifyTitle"/>
+                    <include name="addNewTask"/>
+                    <include name="addMultipleTasks"/>
+                    <include name="firstTaskFirst"/>
+                    <include name="editTask"/>
+                    <include name="taskInDiffLanguage"/>
+                    <include name="taskCompleted"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Negative Tests">
+        <classes>
+            <class name="NegativeTests">
+                <methods>
+                    <include name="noBlankTodo"/>
+                    <include name="duplicateTasks"/>
+                    <include name="specialCharacters"/>
+                    <include name="pageRefreshCheck"/>
+                    <include name="newSession"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

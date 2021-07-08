@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TodoMVC App Tests]" guice-stage="DEVELOPMENT" verbose="0">
+    <test thread-count="5" name="Positive Tests(failed)" verbose="0">
+        <classes>
+            <class name="PositiveTests">
+                <methods>
+                    <include name="coolDown"/>
+                    <include name="firstTaskFirst"/>
+                    <include name="addNewTask"/>
+                    <include name="initiateDriver"/>
+                </methods>
+            </class> <!-- PositiveTests -->
+        </classes>
+    </test> <!-- Positive Tests(failed) -->
+</suite> <!-- Failed suite [TodoMVC App Tests] -->

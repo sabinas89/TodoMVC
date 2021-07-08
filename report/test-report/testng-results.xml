@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+    <reporter-output>
+        <line>
+            <![CDATA[Tests running on Chrome Browser... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Tests running on Chrome Browser... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check URL is working... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Launching browser...]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to verify title... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Browser launched... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to verify new task can be added... <br>]]>
+        </line>
+        <line>
+            <![CDATA[New task added... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check Multiple todos can be added... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 1<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 2<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 3<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 4<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 5<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 6<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 7<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 8<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 9<br>]]>
+        </line>
+        <line>
+            <![CDATA[Added task number: 10<br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check task added first is visible at top... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to verify task can be edited... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Editing value for Todo item 1... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check task can be added in different language... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check multiple tasks can be marked as completed... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check no blank tasks can be added... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Browser is launched... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check duplicate tasks can be added... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check special characters are allowed... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check that todo items exist even after page refresh... <br>]]>
+        </line>
+        <line>
+            <![CDATA[Executing test to check that todo task list is not visible in new browser session... <br>]]>
+        </line>
+    </reporter-output>
+    <suite started-at="2021-07-08T19:48:30Z" name="TodoMVC App Tests" finished-at="2021-07-08T19:48:58Z"
+           duration-ms="27991">
+        <groups>
+        </groups>
+        <test started-at="2021-07-08T19:48:30Z" name="Positive Tests" finished-at="2021-07-08T19:48:47Z"
+              duration-ms="16794">
+            <class name="PositiveTests">
+                <test-method signature="urlIsWorking()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:30Z" name="urlIsWorking" finished-at="2021-07-08T19:48:30Z"
+                             duration-ms="194" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check URL is working... <br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Launching browser...]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- urlIsWorking -->
+                <test-method signature="verifyTitle()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:30Z" name="verifyTitle" finished-at="2021-07-08T19:48:32Z"
+                             duration-ms="1469" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to verify title... <br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Browser launched... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- verifyTitle -->
+                <test-method signature="addNewTask()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:32Z" name="addNewTask" finished-at="2021-07-08T19:48:33Z"
+                             duration-ms="1612" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to verify new task can be added... <br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[New task added... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- addNewTask -->
+                <test-method signature="addMultipleTasks()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:33Z" name="addMultipleTasks"
+                             finished-at="2021-07-08T19:48:41Z" duration-ms="7293" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check Multiple todos can be added... <br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 1<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 2<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 3<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 4<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 5<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 6<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 7<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 8<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 9<br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Added task number: 10<br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- addMultipleTasks -->
+                <test-method signature="firstTaskFirst()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:41Z" name="firstTaskFirst" finished-at="2021-07-08T19:48:41Z"
+                             duration-ms="49" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check task added first is visible at top... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- firstTaskFirst -->
+                <test-method signature="editTask()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:41Z" name="editTask" finished-at="2021-07-08T19:48:42Z"
+                             duration-ms="1191" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to verify task can be edited... <br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Editing value for Todo item 1... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- editTask -->
+                <test-method signature="taskInDiffLanguage()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:42Z" name="taskInDiffLanguage"
+                             finished-at="2021-07-08T19:48:42Z" duration-ms="257" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check task can be added in different language... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- taskInDiffLanguage -->
+                <test-method signature="taskCompleted()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:42Z" name="taskCompleted" finished-at="2021-07-08T19:48:47Z"
+                             duration-ms="4695" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check multiple tasks can be marked as completed... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- taskCompleted -->
+            </class> <!-- PositiveTests -->
+        </test> <!-- Positive Tests -->
+        <test started-at="2021-07-08T19:48:47Z" name="Negative Tests" finished-at="2021-07-08T19:48:58Z"
+              duration-ms="11163">
+            <class name="PositiveTests">
+                <test-method is-config="true" signature="initiateDriver()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:25Z" name="initiateDriver" finished-at="2021-07-08T19:48:28Z"
+                             duration-ms="2661" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Tests running on Chrome Browser... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- initiateDriver -->
+                <test-method is-config="true" signature="initiateDriver()[pri:0, instance:NegativeTests@5e3f861]"
+                             started-at="2021-07-08T19:48:28Z" name="initiateDriver" finished-at="2021-07-08T19:48:30Z"
+                             duration-ms="2216" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Tests running on Chrome Browser... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- initiateDriver -->
+                <test-method is-config="true" signature="coolDown()[pri:0, instance:PositiveTests@46d59067]"
+                             started-at="2021-07-08T19:48:58Z" name="coolDown" finished-at="2021-07-08T19:48:59Z"
+                             duration-ms="944" status="PASS">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- coolDown -->
+                <test-method is-config="true" signature="coolDown()[pri:0, instance:NegativeTests@5e3f861]"
+                             started-at="2021-07-08T19:48:59Z" name="coolDown" finished-at="2021-07-08T19:49:00Z"
+                             duration-ms="934" status="PASS">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- coolDown -->
+            </class> <!-- PositiveTests -->
+            <class name="NegativeTests">
+                <test-method signature="noBlankTodo()[pri:1, instance:NegativeTests@5e3f861]"
+                             started-at="2021-07-08T19:48:47Z" name="noBlankTodo" finished-at="2021-07-08T19:48:53Z"
+                             duration-ms="5927" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check no blank tasks can be added... <br>]]>
+                        </line>
+                        <line>
+                            <![CDATA[Browser is launched... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- noBlankTodo -->
+                <test-method signature="duplicateTasks()[pri:2, instance:NegativeTests@5e3f861]"
+                             started-at="2021-07-08T19:48:53Z" name="duplicateTasks" finished-at="2021-07-08T19:48:54Z"
+                             duration-ms="702" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check duplicate tasks can be added... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- duplicateTasks -->
+                <test-method signature="specialCharacters()[pri:3, instance:NegativeTests@5e3f861]"
+                             started-at="2021-07-08T19:48:54Z" name="specialCharacters"
+                             finished-at="2021-07-08T19:48:54Z" duration-ms="132" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check special characters are allowed... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- specialCharacters -->
+                <test-method signature="pageRefreshCheck()[pri:4, instance:NegativeTests@5e3f861]"
+                             started-at="2021-07-08T19:48:54Z" name="pageRefreshCheck"
+                             finished-at="2021-07-08T19:48:54Z" duration-ms="266" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check that todo items exist even after page refresh... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- pageRefreshCheck -->
+                <test-method signature="newSession()[pri:5, instance:NegativeTests@5e3f861]"
+                             started-at="2021-07-08T19:48:54Z" name="newSession" finished-at="2021-07-08T19:48:58Z"
+                             duration-ms="4133" status="PASS">
+                    <reporter-output>
+                        <line>
+                            <![CDATA[Executing test to check that todo task list is not visible in new browser session... <br>]]>
+                        </line>
+                    </reporter-output>
+                </test-method> <!-- newSession -->
+            </class> <!-- NegativeTests -->
+        </test> <!-- Negative Tests -->
+    </suite> <!-- TodoMVC App Tests -->
+</testng-results>
