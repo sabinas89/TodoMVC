@@ -34,6 +34,17 @@ The Objective of this project is to perform functional testing of this web app.
 
 ---
 
+### Important Notes
+
+---
+
+1. To execute the test cases using Maven Run Configuration, please add Maven goal clean test verify
+2. To execute the test cases using TestNG Run Configuration, please select Test kind as 'Suite' and in the suite path provide the location of testng.xml file
+3. Test reports will be generated under reports/test-report folder
+4. For complete report, please check index.html file
+
+---
+
 ### Project Structure
 
 ---
@@ -43,6 +54,7 @@ The Objective of this project is to perform functional testing of this web app.
 - **TestNG XML**--> conf/testng.xml
 - **WebDriver Classes**--> src/main/java/drivers
 - **Driver location**--> src/main/java/resources
+- **Reports**--> report/test-report/index.html
 
 ---
 
