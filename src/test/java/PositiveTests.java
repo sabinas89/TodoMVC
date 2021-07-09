@@ -26,6 +26,7 @@ public class PositiveTests {
     @BeforeSuite
     public void initiateDriver() {
         driverHandler = DriverManager.getDriverHandler(DriverManager.DriverType.CHROME);
+        //driverHandler = DriverManager.getDriverHandler(DriverManager.DriverType.FIREFOX);
         driver = driverHandler.getDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Reporter.log("Tests running on Chrome Browser... <br>");
